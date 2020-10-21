@@ -3,22 +3,24 @@
 /* ------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lora', serif;
+  font-family: monospace;
 }
 
 header {
-  background: url("https://source.unsplash.com/random");
+  background: url("https://source.unsplash.com/uAfZBP-GtiA");
   background-size: cover;
-  padding: 100px 0;
+  background-position-y: 50%;
+  padding: 120px 0;
   margin-bottom: 30px;
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Major Mono Display', sans-serif;
 }
 
 h1 {
@@ -27,7 +29,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 700;
 }
 
 /* ------- */
@@ -62,7 +64,7 @@ header > div > p {
 
 .article-subtitle {
   font-size: 25px;
-  color: #a0a0a0;
+  color: #333;
   margin: 30px 0;
 }
 
